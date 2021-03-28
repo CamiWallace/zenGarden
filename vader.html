@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+    .circle{
+  height:80px;
+  width:80px;
+  content:"";
+  background-color:red;
+  position:absolute;
+  top:20px;
+  left:63px;
+  border-radius:90px 90px 90px 90px;
+  z-index:-1;
+  
+}
+.helmit{
+  border-radius: 70px 70px 0px 0px;
+  background: red;
+  width: 100px;
+  height: 70px;
+  margin-top:40px;
+  margin-left:45px;
+}
+.body{
+  border-radius: 70px 70px 0px 0px;
+  background: red;
+  width: 190px;
+  height: 270px;
+  margin-top:0px;
+}
+.sabor1{
+  posistion:absolute;
+  height:70px;
+  width:15px;
+  z-index:100;
+  background-color:black;
+  margin-left:150px;
+  margin-top:-280px;
+  transform: rotate(40deg);
+}
+
+.shoe1{
+  height:30px;
+  width:40px;
+  background:red;
+  border-radius: 0px 0px 90px 90px;
+  margin-left:40px;
+}
+.shoe2{
+  height:30px;
+  width:40px;
+  background:red;
+  border-radius: 0px 0px 90px 90px;
+  margin-left:100px;
+  margin-top:-30px;
+}
+.eye1{
+  height:7px;
+  width:15px;
+  background:black;
+  border-radius: 0px 0px 90px 90px;
+  position:absolute;
+  top:55px;
+  left:77px;
+}
+.eye2{
+  height:7px;
+  width:15px;
+  background:black;
+  border-radius: 0px 0px 90px 90px;
+  position:absolute;
+  top:55px;
+  left:110px;
+}
+.nose {
+	position: absolute;
+	background-color: black;
+  top:70px;
+  left:95px;
+	
+}
+.nose:before,
+.nose:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.nose,
+.nose:before,
+.nose:after {
+	width:  16px;
+	height: 16px;
+	border-top-right-radius: 30%;
+  
+}
+
+.nose {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.nose:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.nose:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+.sabor2{
+  height:150px;
+  width:15px;
+  background-color:red;
+  content:"";
+  margin-top:-193px;
+  margin-left:220px;
+  transform:rotate(40deg);
+  border-radius: 90px 90px 90px 90px;
+  
+}
+body{
+     max-width:500px;
+     
+     
+   }
+    </style>
+  </head>  
+  <body>
+  <div class="circle"></div>
+  <div class="helmit"></div>
+  <div class="body"></div>
+  <div class="shoe1"></div>
+  <div class="shoe2"></div>
+  <div class="eye1"></div>
+  <div class="eye2"></div>
+  <div class="nose"></div>
+  <div class="sabor1"></div>
+  <div class="sabor2"></div>
+  </body>
+</html>

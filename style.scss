@@ -271,3 +271,24 @@ footer{
 }
 
 }
+
+@media only screen and (min-device-width: 480px) {
+  p {
+    line-height: 10px;
+  }
+  li {
+    line-height: 1em;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  p {
+    line-height: 12px;
+  }
+}
+
+@media only screen  and (min-width : 1224px) {
+  p {
+    line-height: 25px;
+  }
+}

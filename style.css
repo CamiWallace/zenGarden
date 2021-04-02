@@ -257,12 +257,23 @@
 }
 
 a {
-  color: #5151ee;
   font-size: 1vw;
 }
 
-a:hover {
-  color: #eb212e;
+a:active {
+  color: #ffe81f;
+}
+
+a {
+  font-size: 1em;
+}
+
+a:hover:nth-child(even) {
+  color: #ffe81f;
+}
+
+a:hover:nth-child(odd) {
+  color: #ffffff;
 }
 
 a:active {
@@ -271,7 +282,13 @@ a:active {
 
 .design-selection ul {
   padding-left: 20px;
-  font-size: .5em;
+  font-size: .25em;
+  line-height: 1.25em;
+}
+
+.design-selection ul li {
+  padding-top: 1em;
+  width: 150%;
 }
 
 .design-selection nav ul li {
@@ -289,15 +306,57 @@ a:active {
 }
 
 .select {
-  color: #4ED1BC;
   -webkit-animation: flash linear 2s infinite;
   animation: flash linear 3s infinite;
 }
 
 footer a:hover {
-  color: #0cbb06;
   -webkit-animation: g-glow 5s ease infinite;
   animation: g-glow 5s ease infinite;
+}
+
+.zen-resources ul {
+  line-height: .5em;
+}
+
+.zen-resources ul li {
+  padding-top: .5em;
+  font-size: .5em;
+}
+
+.design-archives ul {
+  line-height: .5em;
+}
+
+.design-archives ul li {
+  padding-top: .5em;
+  font-size: .5em;
+}
+
+@media only screen and (min-width: 1224px) {
+  a {
+    font-size: 1em;
+  }
+  .design-selection ul {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .zen-resources ul li {
+    font-size: 1em;
+  }
+  .design-archives ul li {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1224px) {
+  a {
+    font-size: 1em;
+  }
+  .design-selection ul {
+    font-size: .75em;
+    line-height: 1.5em;
+  }
 }
 
 @-webkit-keyframes g-glow {

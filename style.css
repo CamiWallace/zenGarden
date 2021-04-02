@@ -257,12 +257,12 @@
 }
 
 a {
-  font-size: .5em;
+  color: #5151ee;
+  font-size: 1vw;
 }
 
 a:hover {
   color: #eb212e;
-  color: #5151ee;
 }
 
 a:active {
@@ -666,9 +666,13 @@ p {
   background-position: bottom center;
 }
 
+.design-archives {
+  margin-top: 10vw;
+}
+
 footer {
   color: #0000ff;
-  height: 5em;
+  height: 5vw;
   border: 1px solid;
   border-color: #0000ff;
   display: -webkit-box;

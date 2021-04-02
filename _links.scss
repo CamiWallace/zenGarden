@@ -2,11 +2,12 @@
 @import "keyframes";
 
 a{
-    font-size: .5em;
+    color: #5151ee;
+    font-size: 1vw;
   }
   a:hover{
     color: $red;
-    color: #5151ee;
+    
   }
   a:active{
     color: $yellow;
@@ -37,3 +38,4 @@ a{
     -webkit-animation: g-glow 5s ease infinite;
             animation: g-glow 5s ease infinite;
   }
+ 

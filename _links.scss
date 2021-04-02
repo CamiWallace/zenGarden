@@ -1,0 +1,39 @@
+@import "colors";
+@import "keyframes";
+
+a{
+    font-size: .5em;
+  }
+  a:hover{
+    color: $red;
+    color: #5151ee;
+  }
+  a:active{
+    color: $yellow;
+  }
+  .design-selection ul {
+    padding-left: 20px;
+    font-size: .5em;
+  }
+  .design-selection nav ul li {
+    -webkit-transform: translateX(160%);
+            transform: translateX(160%);
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+  .design-selection:hover nav ul li {
+    -webkit-transform: translate(0%);
+            transform: translate(0%);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+  .select {
+    color: #4ED1BC;
+     -webkit-animation: flash linear 2s infinite;
+     animation: flash linear 3s infinite;
+  }
+  footer a:hover {
+    color: #0cbb06;
+    -webkit-animation: g-glow 5s ease infinite;
+            animation: g-glow 5s ease infinite;
+  }

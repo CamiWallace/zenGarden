@@ -772,4 +772,37 @@ footer {
   -webkit-animation: twink 200s linear infinite;
   animation: twink 200s linear infinite;
 }
+@media only screen and (max-width: 768px) {
+  .page-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper {
+    background-position: right top;
+  }
+  .design-selection {
+    margin-left: 67vw;
+  }
+  .design-archives {
+    margin-top: -15vw;
+  }
+  .explanation {
+    padding-top: 25vw;
+  }
+  .page-wrapper .sidebar {
+    background-image: none;
+  }
+  .supporting {
+    z-index: 1;
+    background-image: url("vader.jpg");
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-position: center top;
+  }
+}
 /*# sourceMappingURL=style.css.map */

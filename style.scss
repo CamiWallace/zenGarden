@@ -138,3 +138,33 @@ footer {
           animation: twink 200s linear infinite;
 }
 /*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 768px){
+  .page-wrapper{
+    display: flex;
+    flex-direction: column;
+     
+  }
+  .wrapper{
+    background-position: right top;
+  }
+ .design-selection{
+   margin-left: 67vw;
+ } 
+ .design-archives{
+   margin-top: -15vw;
+ }
+ .explanation{
+   padding-top: 25vw;
+ }
+ .page-wrapper .sidebar{
+   background-image: none;
+ }
+ .supporting{
+  z-index: 1;
+  background-image: url("vader.jpg");
+  background-repeat: no-repeat;
+  background-size: 20vw;
+  background-position: center top;
+}
+
+ }
